@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main_container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 40px;
+}
+.left_container h3 {
+  font-size: 25px;
+}
+.left_container {
+  /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
+  border: 0.5px solid gray;
+  max-height: fit-content;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.subjectList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.subject {
+  padding: 9px 20px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  font-weight: 500;
+  transition: all 0.5s;
+}
+.choosen {
+  background-color: #3880fa !important;
+  color: white !important;
+}
+.subject:hover {
+  background-color: #3880fa;
+  color: white;
+}
+.studentImg {
+  width: 40%;
+  height: 40%;
+}
